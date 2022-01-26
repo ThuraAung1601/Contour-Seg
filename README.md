@@ -23,9 +23,11 @@ python pre-process.py --input Testing.jpg
   - Gaussian Blur
   - Dilation for thinning
   - Finding Connect Components by Contours
+  - If crop mode is off, the result image is only one image with bounding boxes 
+  - If crop is on, path will need to given and bounding boxes are cropped as individual images
 
 ```text
-python bounding-boxes.py --crop on
+python bounding-boxes.py --crop on --path ./Digit-Images/
 ```
 
 ### Result
