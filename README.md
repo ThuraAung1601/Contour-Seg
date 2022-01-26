@@ -25,7 +25,7 @@ python pre-process.py --input Testing.jpg
   - Finding Connect Components by Contours
 
 ```text
-python bounding-boxes.py
+python bounding-boxes.py --crop on
 ```
 
 ### Result
@@ -34,5 +34,4 @@ python bounding-boxes.py
 
 ### Future Works
 - Different denoising methods with respective PSNR values for benchmarking
-- Image Croping
 - Image Clustering for labelling
