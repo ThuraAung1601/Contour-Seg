@@ -1,7 +1,7 @@
 import argparse
 import re
 
-parser = argparse.ArgumentParser(description='Syllable-based word segmentation for Myanmar language')
+parser = argparse.ArgumentParser(description='Preprocessing Image')
 parser.add_argument('-i', '--input', type=str, help='input file', required=True)
 parser.add_argument('-o', '--output', type=str, default='processed.jpg', help='output file', required=True)
 
