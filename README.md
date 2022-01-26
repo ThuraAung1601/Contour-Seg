@@ -25,6 +25,10 @@ python pre-process.py --input Testing.jpg
 python bounding-boxes.py
 ```
 
+### Result
+
+![This is bounding boxes](box.jpg)
+
 ### Future Works
 - Different denoising methods with respective PSNR values for benchmarking
 - Image Croping
