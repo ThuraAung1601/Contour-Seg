@@ -41,9 +41,11 @@ def bounding(img):
         
         if crop == 'on':
             im = image[y:y+h, x:x+w]
-            cv2.imwrite(path, im)
+            PATH = path + str(i) + ".jpg"
+            cv2.imwrite(PATH, im)
 
         cv2.rectangle(image,(x,y),( x + w, y + h ),(90,0,255),2)
+        
     return image
 
 
