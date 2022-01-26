@@ -1,6 +1,9 @@
 # Char-Seg
+## Contour-based Handwritten Digit Segmentation using OpenCV
 
-Contour-based Handwritten Digit Segmentation using OpenCV
+We can segment characters and digits wirtten on pages for data collection purposes.
+<br />
+Images shall be used to train Character Recognition models.
 
 ### Usage
 - 1 
