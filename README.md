@@ -1,4 +1,4 @@
-# Char-Seg
+# Contour-Seg
 ## Contour-based Handwritten Digit Segmentation using OpenCV
 
 We can segment characters and digits wirtten on pages for data collection purposes.
